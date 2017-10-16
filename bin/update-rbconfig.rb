@@ -12,6 +12,10 @@ and updates:
   LIBRUBY_ALIASES: to use $(LIBRUBY_SONAME)
 MSG
   end
+  if ARGV[0] == '--standard'
+    require 'rbconfig'
+    ARGV[0] = $".find {|n| File.basename(n) == 'rbconfig.rb'}
+  end
   $-i = ".bak"
 }
 case
