@@ -8,7 +8,7 @@ this script adds:
   LIBRUBY_SONAME:  soname of ruby shared library
   SOEXT:           shared library file suffix
 and updates:
-  LIBURYB_SO:      to use $(SOEXT)
+  LIBRUBY_SO:      to use $(SOEXT)
   LIBRUBY_ALIASES: to use $(LIBRUBY_SONAME)
 MSG
   end

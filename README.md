@@ -34,5 +34,5 @@ If you don't want to, or can't, modify the standard file, load
 
 ### To be updated
 
-* `LIBURYB_SO`      to use `$(SOEXT)`
+* `LIBRUBY_SO`      to use `$(SOEXT)`
 * `LIBRUBY_ALIASES` to use `$(LIBRUBY_SONAME)`
