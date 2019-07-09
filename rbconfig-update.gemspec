@@ -20,6 +20,4 @@ Gem::Specification.new do |s|
   s.licenses = ["BSD-2-Clause"]
   s.rubygems_version = "2.6.14".freeze
   s.summary = "Update RbConfig"
-  s.cert_chain  = [File.expand_path("~/.ssh/gem-public_cert.pem")]
-  s.signing_key = File.expand_path("~/.ssh/gem-private_key.pem") if $0 =~ /gem\z/
 end
