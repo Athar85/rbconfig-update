@@ -3,12 +3,12 @@
 
 Gem::Specification.new do |s|
   s.name = "rbconfig-update"
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 2.6".freeze)
   s.require_paths = ["lib"]
   s.authors = ["Nobu Nakada"]
-  s.date = "2017-10-14"
+  s.date = "2019-07-09"
   s.description = "Update/add new info to `RbConfig::CONFIG`.".freeze
   s.email = "nobu@ruby-lang.org"
   s.files = %w[
