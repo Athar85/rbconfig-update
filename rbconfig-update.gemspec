@@ -3,7 +3,7 @@
 
 Gem::Specification.new do |s|
   s.name = "rbconfig-update"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 2.6".freeze)
   s.require_paths = ["lib"]
